@@ -16,7 +16,7 @@
 	);
 
 	$messageL2 = __(
-		'To get started, be sure to read your <a target="_blank" href="%1$s">theme\'s documentation</a>. If you have any questions, please <a target="_blank" href="%2$s">contact us</a> for help.',
+		apply_filters('unbox_message', 'To get started, be sure to read your <a target="_blank" href="%1$s">theme\'s documentation</a>. If you have any questions, please <a target="_blank" href="%2$s">contact us</a> for help.'),
 		'unbox'
 	);
 
